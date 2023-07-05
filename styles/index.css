@@ -1,0 +1,178 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+span {
+    color: #FC8846;
+}
+
+h2 {
+    color: #575757;
+    font-size: 3em;
+}
+
+#first p {
+    color: #828282;
+    font-size: 18px;
+    text-align: left;
+    width: 69%;
+}
+
+#first h2:last-of-type {
+    margin-bottom: 50px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, orange, #FD5131);
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+#first, #second {
+    display: flex;
+    margin: 0 5%;
+    margin-top: 20px;
+}
+
+#second {
+    background-image: url('/images/shapes/7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 600px;
+}
+
+#first section, #second section {
+    align-self: center;
+    width: 50%;
+}
+
+.pic img {
+    padding-left: 100px;
+    width: 75%;
+}
+
+#second img{
+    width: 40%;
+    margin-left: 150px;
+    margin-top: 120px;
+}
+
+#second h2 {
+    margin: 40px 0;
+    font-size: 3em;
+}
+
+#second p {
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+#third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#thirdStart h2 {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+#thirdStart p {
+    padding-left: 450px;
+    width: 42%;
+    text-align: center;
+}
+
+#content {
+    display: flex;
+    margin: 0 50px;
+    text-align: left;
+    align-items: left;
+}
+
+.r2 {
+    margin: 0 calc(15% / 6);
+}
+
+.recipes {
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px rgba(191, 191, 191, 0.722);
+    margin:  calc(15% / 6);
+}
+
+.r2 {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.r2 h2 {
+    font-size: 2em;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+.r2 p {
+    margin: 30px 5px;
+}
+
+.recipes img {
+    width: 337px;
+    margin-top: 30px;
+    padding-left: 33px;
+}
+
+#fourth {
+    display: flex;
+    width: 90%;
+    height: 180px;
+    margin: 20px 5%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(191, 191, 191, 0.722);
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#fourth div {
+    justify-content: space-around;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#fourth h1 {
+    margin-bottom: 10px;
+}
+
+#fourth h6 {
+    font-weight: 400;
+}
+
+footer {
+    background-color: black;
+    height: 250px;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 2em;
+    padding: 50px 0;
+}
+
+footer h6 {
+    color: white;
+    font-weight: 400;
+    font-size: small;
+}
